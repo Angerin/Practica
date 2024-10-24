@@ -1,0 +1,347 @@
+@font-face {
+    font-family: 'Mazzard-Bold';
+    src: url(../Fonts/MAZZARDM-BOLD.TTF);
+}
+
+@font-face {
+    font-family: 'Mazzard-Medium';
+    src: url(../Fonts/MAZZARDH-MEDIUM.TTF);
+}
+
+@font-face {
+    font-family: 'Wix Madefor Text';
+    src: url(../Fonts/WIXMADEFORTEXT-VARIABLEFONT_WGHT.TTF);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 100px;
+    border-radius: 24px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 630px;
+    text-align: center;
+    z-index: 1;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #202224;
+    font-family: 'Mazzard-Bold';
+    font-size: 34px;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #202224;
+    font-family: 'Wix Madefor Text';
+    font-size: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Mazzard-Medium';
+    color: #202224;
+    font-size: 18px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #202224;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button.login-btn:hover {
+    background-color: #D64206;
+}
+
+.signup-prompt {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.signup-prompt a,
+.extra-options a,
+.back-to-login a {
+    color: #D64206;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Mazzard-Medium';
+}
+
+.signup-prompt a:hover,
+.extra-options a:hover,
+.back-to-login a:hover {
+    text-decoration: underline;
+}
+
+.extra-options {
+    margin-top: 10px;
+}
+
+.back-to-login {
+    margin-top: 15px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: left;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+#privacy-policy {
+    padding: 0px;
+    margin: 0px 12px 5px 0px;
+    width: auto;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 274px;
+    /* Ширина боковой панели */
+    background-color: #f4f4f4;
+    /* Цвет фона боковой панели */
+    padding: 20px;
+    /* Отступы вокруг содержимого */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    /* Отступ снизу для логотипа */
+}
+
+.navigation {
+    margin-bottom: 40px;
+    /* Отступ снизу для навигации */
+}
+
+.navigation ul {
+    list-style: none;
+    /* Убираем маркеры списка */
+    padding: 0;
+    /* Убираем отступы */
+}
+
+.navigation li {
+    margin-bottom: 16px;
+    /* Отступ между пунктами навигации */
+}
+
+.navigation a {
+    text-decoration: none;
+    /* Убираем подчеркивание */
+    color: #333;
+    /* Цвет текста */
+}
+
+.navigation a:hover {
+    color: #007bff;
+    /* Цвет текста при наведении */
+}
+
+.divider {
+    width: 274px;
+    /* Ширина линии */
+    height: 1px;
+    /* Высота линии */
+    background-color: #ccc;
+    /* Цвет линии */
+    margin-bottom: 40px;
+    /* Отступ снизу для линии */
+}
+
+.my-projects {
+    font-size: 18px;
+    /* Размер шрифта для заголовка "Мои проекты" */
+    margin-bottom: 40px;
+    /* Отступ снизу для заголовка "Мои проекты" */
+}
+
+.radio-group {
+    margin-bottom: 16px;
+    /* Отступ между радио-кнопками */
+}
+
+.main-content {
+    flex-grow: 1;
+    /* Занимает оставшееся пространство */
+    padding: 20px;
+    /* Отступы вокруг содержимого основной части */
+}
+
+.profile-info p {
+    margin: 5px 0;
+    /* Отступы между строками информации профиля */
+}
+
+.profile-btn {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #D64206;
+    color: white;
+    cursor: pointer;
+}
+
+.profile-btn:hover {
+    background-color: #D64206;
+}
+
+.avatar {
+    width: 100px;
+    /* Ширина аватарки */
+    height: 100px;
+    /* Высота аватарки */
+    border-radius: 50%;
+    /* Делает аватарку круглой */
+    overflow: hidden;
+    /* Обрезает содержимое, выходящее за границы */
+    border: 2px solid #007bff;
+    /* Граница аватарки */
+    display: flex;
+    /* Используем flexbox для центрирования */
+    justify-content: center;
+    /* Центрируем по горизонтали */
+    align-items: center;
+    /* Центрируем по вертикали */
+}
+
+.avatar img {
+    display: flex;
+    width: 100%;
+    /* Устанавливаем ширину изображения на 100% */
+    height: auto;
+    /* Автоматическая высота для сохранения пропорций */
+    object-fit: cover;
+    /* Обрезка изображения для сохранения пропорций */
+}
+
+.tear {
+    padding: 43px 0px 43px 32px;
+}
+
+.main-avatar {
+    display: flex;
+}
+
+.column {
+    width: 545px;
+    height: 161px;
+    border: 1px solid;
+    border-radius: 14px;
+    margin-top: 63px;
+    flex-direction: column;
+    display: flex;
+}
+
+.cont-h {
+    font-size: 16px;
+    margin: 18px 0px 0px 18px;
+    width: 200px;
+    display: flex;
+}
+
+.cont-n {
+    font-size: 28px;
+    margin: 18px 0 0 18px;
+    width: 200px;
+    display: flex;
+}
+
+.cont-k {
+    font-size: 16px;
+    margin: 32px 18px 0;
+    width: 200px;
+    display: flex;
+}
+
+.rectangle {
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    position: relative;
+    right: 136px;
+    top: 93px;
+    display: flex;
+    border-radius: 24px;
+}
+
+.container {
+    display: flex;
+}
+
+.rectangle2 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    position: relative;
+    right: 136px;
+    top: 93px;
+    border-radius: 24px;
+}
+
+.cont-l {
+    font-size: 32px;
+    margin: 18px 0px 0px 18px;
+    width: 200px;
+    display: flex;
+}
+
+.dex {
+    position: absolute;
+    overlay: hidden;
+    z-index: 1;
+}

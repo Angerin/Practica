@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профиль</title>
+    <link rel="stylesheet" href="Style/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">М.Проектор</div>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="profile.html">Профиль</a></li>
+                    <li><a href="reports.html">Отчёты</a></li>
+                    <li><a href="tasks.html">Задачи</a></li>
+                    <li><a href="participants.html">Участники</a></li>
+                    <li><a href="settings.html">Настройки</a></li>
+                </ul>
+            </nav>
+            <div class="divider"></div>
+            <div class="my-projects">Мои проекты</div>
+            <ul class="project-list">
+                <li> Мобильное П.</li>
+                <li> Таблицы</li>
+                <li> Система дизайна</li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <h2>Ваш Профиль</h2>
+            <div class="main-avatar">
+                <div class="avatar">
+
+                    <img src="Png/UK Flag.png" alt="Аватарка">
+
+                </div>
+                <div class="tear">Саша Лис</div>
+            </div>
+            <div class="container">
+                <div class="column">
+                    <div class="cont-h">Выполненные работы</div>
+                    <div class="cont-n"> 2000</div>
+                    <div class="cont-k"> На 8,5% больше, чем вчера</div>
+                </div>
+                <div class="rectangle"></div>
+            </div>
+            <div class="container">
+                <div class="column">
+                    <div class="cont-h">В разработке</div>
+                    <div class="cont-n"> 5 проектов</div>
+                    <div class="cont-k"> На 2 больше, чем вчера</div>
+                </div>
+                <div class="rectangle2"></div>
+            </div>
+            <div class="container">
+                <div class="column">
+                    <div class="cont-l"> &#8220;Я старался, у меня не получилось</div>
+                </div>
+
+            </div>
+
+
+            <div class="profile-info">
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        function editProfile() {
+            alert('Форма редактирования профиля будет открыта.');
+        }
+
+        function logout() {
+            alert('Вы вышли из системы.');
+            window.location.href = 'index.html'; // Переход на страницу входа
+        }
+    </script>
+</body>
+
+</html>
