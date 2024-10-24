@@ -30,13 +30,16 @@ body {
 
 .login-container {
     background-color: #fff;
-    padding: 100px;
+    padding: 58px 58px;
     border-radius: 24px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 630px;
     text-align: center;
     z-index: 1;
+    border-radius: 24px;
+    background: var(--Colors-neutral-0, #FFF);
+    letter-spacing: -0.114px;
 }
 
 h1 {
@@ -44,6 +47,11 @@ h1 {
     color: #202224;
     font-family: 'Mazzard-Bold';
     font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    height: 38px;
+    align-self: stretch;
 }
 
 p {
@@ -51,11 +59,20 @@ p {
     color: #202224;
     font-family: 'Wix Madefor Text';
     font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.064px;
 }
 
 .input-group {
-    margin-bottom: 15px;
+    margin-bottom: 16px;
     text-align: left;
+    display: flex;
+    width: 516px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
 }
 
 label {
@@ -84,6 +101,14 @@ button.login-btn {
     font-size: 20px;
     cursor: pointer;
     margin-top: 10px;
+    align-self: stretch;
+    text-align: center;
+    font-family: Mazzard;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.064px;
 }
 
 button.login-btn:hover {
@@ -102,6 +127,13 @@ button.login-btn:hover {
     text-decoration: none;
     font-size: 18px;
     font-family: 'Mazzard-Medium';
+    gap: 11px;
+    text-align: right;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.064px;
 }
 
 .signup-prompt a:hover,
